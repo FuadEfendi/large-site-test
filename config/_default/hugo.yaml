@@ -1,7 +1,7 @@
-baseURL: https://islamictermslexicon.com/
-title: Islamic Terms Lexicon
+baseURL: https://largesitetest.com/
+title: Test 
 # Copyright, the {year} is the placeholder of this year.
-copyright: "Copyright © 2023-{year} [Tokenizer Inc.](https://tokenizer.ca/) All Rights Reserved."
+copyright: "Copyright © 2023-{year} XYZ All Rights Reserved."
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: # true # disable this to remove the default language code from URL, i.e. /en/docs -> /docs.
 enableRobotsTXT: true
@@ -22,11 +22,10 @@ outputs:
     - WebAppManifest # required by PWA module to make your site installable.
 
 taxonomies:
-  
-  tags: tags
+  # tags: tags
   categories: categories
   # series: series
-  authors: author      # multiple authors.
+  # authors: author      # multiple authors.
 
 build:
   writeStats: true # required by PurgeCSS.

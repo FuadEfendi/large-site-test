@@ -35,7 +35,7 @@ hb:
   blog:
     sidebar:
       profile:
-        title: Islamic Terms Lexicon
+        title: Large Site Test
       posts:
         recent_count: 0
         featured_count: 0
@@ -95,7 +95,7 @@ pwa:
   manifest:
     background_color: '#712cf9'
     theme_color: '#712cf9'
-    short_name: 'Islamic Lexicon'
+    short_name: 'Large Site Test'
 
 # https://hugomods.com/search/configurations/
 search:
