@@ -23,7 +23,7 @@ outputs:
 
 taxonomies:
   # tags: tags
-  categories: categories
+  # categories: categories
   # series: series
   # authors: author      # multiple authors.
 
