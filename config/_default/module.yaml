@@ -33,70 +33,70 @@ imports:
   # - path: github.com/hbstack/blog/modules/disqus
   # - path: github.com/hbstack/blog/modules/utterances
 
-  # blog table of contents scrollspy
-  - path: github.com/hbstack/blog/modules/toc-scrollspy
+  # # blog table of contents scrollspy
+  # - path: github.com/hbstack/blog/modules/toc-scrollspy
 
-  # blog content panel
-  - path: github.com/hbstack/blog/modules/content-panel
+  # # blog content panel
+  # - path: github.com/hbstack/blog/modules/content-panel
 
-  - path: github.com/hbstack/blog/modules/revision
-  - path: github.com/hbstack/docs/modules/revision
+  # - path: github.com/hbstack/blog/modules/revision
+  # - path: github.com/hbstack/docs/modules/revision
   
   # docs comments engine
   ## - path: github.com/hbstack/docs/modules/giscus
   # - path: github.com/hbstack/docs/modules/utterances
   # - path: github.com/hbstack/docs/modules/disqus
 
-  # docs table of contents scrollspy
-  - path: github.com/hbstack/docs/modules/toc-scrollspy
+  # # docs table of contents scrollspy
+  # - path: github.com/hbstack/docs/modules/toc-scrollspy
 
-  # docs content panel
-  - path: github.com/hbstack/docs/modules/content-panel
+  # # docs content panel
+  # - path: github.com/hbstack/docs/modules/content-panel
 
-  # other modules
-  - path: github.com/hugomods/google-analytics
-  # - path: github.com/hugomods/google-adsense
+  # # other modules
+  # - path: github.com/hugomods/google-analytics
+  # # - path: github.com/hugomods/google-adsense
 
-  # check which modules were imported by recommended module by "hugo mod graph | grep recommended".
-  # see also https://hbstack.dev/en/docs/modules/meta/.
-  # https://hbstack.dev/blog/2023/10/replace-meta-modules/
-  # - path: github.com/hbstack/meta/recommended
-  ## order is important:
-  - path: github.com/hbstack/back-to-top
-  #- path: github.com/hbstack/bigger-picture
-  - path: github.com/hbstack/code-block-panel
-  - path: github.com/hbstack/docs
-  - path: github.com/hbstack/docs/modules/breadcrumb
-  #- path: github.com/hbstack/docs/modules/featured-image
-  - path: github.com/hbstack/docs/modules/heading-sign
-  - path: github.com/hbstack/docs/modules/doc-nav
-  - path: github.com/hbstack/blog
-  - path: github.com/hbstack/blog/modules/breadcrumb
-  - path: github.com/hbstack/blog/modules/featured-image
-  - path: github.com/hbstack/blog/modules/heading-sign
-  - path: github.com/hbstack/blog/modules/post-nav
-  - path: github.com/hbstack/blog/modules/related-posts
-  - path: github.com/hbstack/mermaid
-  - path: github.com/hugomods/katex
-  - path: github.com/hbstack/bootstrap
-  #- path: github.com/hugomods/images
-  - path: github.com/hugomods/shortcodes
-  - path: github.com/hbstack/footer
-  #- path: github.com/hbstack/footer/modules/socials
-  - path: github.com/hbstack/header
-  #- path: github.com/hbstack/header/modules/language-picker
-  #- path: github.com/hbstack/header/modules/socials
-  - path: github.com/hbstack/header/modules/search
-  - path: github.com/hbstack/header/modules/theme-toggle
-  - path: github.com/hugomods/seo/modules/alternatives
-  - path: github.com/hugomods/seo/modules/base
-  - path: github.com/hugomods/seo/modules/favicons
-  - path: github.com/hugomods/seo/modules/open-graph
-  - path: github.com/hugomods/seo/modules/schema
-  #- path: github.com/hugomods/seo/modules/translations
-  #- path: github.com/hugomods/seo/modules/twitter-cards
-  - path: github.com/hbstack/syntax-highlighting/styles/gruvbox
-  - path: github.com/hbstack/noscript
-  - path: github.com/hbstack/progress-bar
-  - path: github.com/hbstack/pwa
-  - path: github.com/hbstack/scrollbar
+  # # check which modules were imported by recommended module by "hugo mod graph | grep recommended".
+  # # see also https://hbstack.dev/en/docs/modules/meta/.
+  # # https://hbstack.dev/blog/2023/10/replace-meta-modules/
+  # # - path: github.com/hbstack/meta/recommended
+  # ## order is important:
+  # - path: github.com/hbstack/back-to-top
+  # #- path: github.com/hbstack/bigger-picture
+  # - path: github.com/hbstack/code-block-panel
+  # - path: github.com/hbstack/docs
+  # - path: github.com/hbstack/docs/modules/breadcrumb
+  # #- path: github.com/hbstack/docs/modules/featured-image
+  # - path: github.com/hbstack/docs/modules/heading-sign
+  # - path: github.com/hbstack/docs/modules/doc-nav
+  # - path: github.com/hbstack/blog
+  # - path: github.com/hbstack/blog/modules/breadcrumb
+  # - path: github.com/hbstack/blog/modules/featured-image
+  # - path: github.com/hbstack/blog/modules/heading-sign
+  # - path: github.com/hbstack/blog/modules/post-nav
+  # - path: github.com/hbstack/blog/modules/related-posts
+  # - path: github.com/hbstack/mermaid
+  # - path: github.com/hugomods/katex
+  # - path: github.com/hbstack/bootstrap
+  # #- path: github.com/hugomods/images
+  # - path: github.com/hugomods/shortcodes
+  # - path: github.com/hbstack/footer
+  # #- path: github.com/hbstack/footer/modules/socials
+  # - path: github.com/hbstack/header
+  # #- path: github.com/hbstack/header/modules/language-picker
+  # #- path: github.com/hbstack/header/modules/socials
+  # - path: github.com/hbstack/header/modules/search
+  # - path: github.com/hbstack/header/modules/theme-toggle
+  # - path: github.com/hugomods/seo/modules/alternatives
+  # - path: github.com/hugomods/seo/modules/base
+  # - path: github.com/hugomods/seo/modules/favicons
+  # - path: github.com/hugomods/seo/modules/open-graph
+  # - path: github.com/hugomods/seo/modules/schema
+  # #- path: github.com/hugomods/seo/modules/translations
+  # #- path: github.com/hugomods/seo/modules/twitter-cards
+  # - path: github.com/hbstack/syntax-highlighting/styles/gruvbox
+  # - path: github.com/hbstack/noscript
+  # - path: github.com/hbstack/progress-bar
+  # - path: github.com/hbstack/pwa
+  # - path: github.com/hbstack/scrollbar
